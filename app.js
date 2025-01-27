@@ -47,6 +47,13 @@ function sortear() {
         return;
     }
 
+    let intervalo = ate - de + 1;
+    
+    if (quantidade > intervalo) {
+        alert('Campo "Quantidade de números" deve ser menor que o intervalo entre os campos "Do número" e "Até o número". Verifique!');
+        return;
+    }
+
     for (let i = 0; i < quantidade; i++) {
         numero = obterNumeroAleatorio(de, ate);
 
