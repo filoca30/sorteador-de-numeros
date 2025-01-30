@@ -8,17 +8,17 @@ function sortear() {
 
 
     if (document.getElementById('quantidade').value == '') {
-        alert('Campo "Quantidade de números" deve ser preenchido. Verifique!');
+        alert('Campo "Quantidade de números" não foi preenchido. Verifique!');
         return;
     }
 
         if (document.getElementById('de').value == '') {
-        alert('Campo "Do número" deve ser preenchido. Verifique!');
+        alert('Campo "Do número" não foi preenchido. Verifique!');
         return;
     }
 
     if (document.getElementById('ate').value == '') {
-        alert('Campo "Até o número" deve ser preenchido. Verifique!');
+        alert('Campo "Até o número" não foi preenchido. Verifique!');
         return;        
     }
     
