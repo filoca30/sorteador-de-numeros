@@ -93,6 +93,4 @@ function reiniciar() {
     alterarStatusBotao();
 }
 
-function limparCampo(campo) {
-
-}
+function limparCampo(campo) {}
